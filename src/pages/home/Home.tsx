@@ -67,7 +67,7 @@ const Home = () => {
       return array.sort((a, b) => {
         if (sort.key === "last_name") {
           return (
-            a.first_name.localeCompare(b.first_name) *
+            a.last_name.localeCompare(b.last_name) *
             (sort.direction === "ascending" ? 1 : -1)
           );
         }
